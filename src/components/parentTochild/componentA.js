@@ -1,0 +1,10 @@
+import CompB from "./componentB";
+const CompA = () => {
+    return (
+        <div>
+            <h1>This is component A</h1>
+            <CompB/>
+        </div>
+    );
+}
+export default CompA;
